@@ -78,4 +78,14 @@ This project demonstrates how machine learning models can be used to understand 
 
 3.Google Colab
 
+## Scatter Plot
+![Experience vs Salary](scatter_plot.png)
 
+## Decision Tree
+![Decision Tree](decision_tree.png)
+
+## Bar graph 
+![Bar graph](bar_graph.png)
+
+## Experience Level Distribution 
+![Experience Level Distribution](experience_level.png)
