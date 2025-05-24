@@ -46,11 +46,10 @@ The dataset is in CSV format and includes:
 | 1.3              | 46205.00    |
 | ...              | ...         |
 
-You can download the dataset from the repo or upload your own in Google Colab.
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. **Clone the repository:**
    ```bash
