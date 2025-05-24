@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Predictor</title>
+</head>
+<body>
+    <h2>Salary Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Experience (in years):</label>
+        <input type="number" name="experience" required><br><br>
+
+        <label>Education Level:</label>
+        <select name="education" required>
+            <option value="1">Bachelor's</option>
+            <option value="2">Master's</option>
+            <option value="3">PhD</option>
+        </select><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>
